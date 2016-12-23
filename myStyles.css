@@ -1,0 +1,44 @@
+body 
+{background-color : #ADD8E6; 
+}
+
+p
+{
+	color:black;
+	text-align: center;
+	font-size: 20;
+	font-family:vervana;
+	
+
+}
+h1
+{ 
+	color: black;
+	text-align: center;
+	font-size:30;
+	font-family:vervana;
+	
+}
+label
+{
+color: black;
+	text-align: left;
+	font-size: 20;
+	font-family: vervana;
+}
+#r
+{
+	text-align: left;
+	display: inline-block;
+}
+#Result
+{
+	text-align: right;
+	display: inline-block;
+	margin-left: 410px;
+	margin-bottom: 200px;
+}
+textarea{
+	width: 200px;
+	height: 25px;
+}

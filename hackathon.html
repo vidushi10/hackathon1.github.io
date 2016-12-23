@@ -1,0 +1,86 @@
+<!DOCTYPE html!>
+
+<html>
+
+<head>
+<title> BUILDER'S NEST </title> 
+</head>
+
+<script src= "myNew.js"> </script>
+<link rel="stylesheet" href="myStyles.css">
+<body>
+<h1> Concrete Mix Design </h1>
+<p> This site helps the builders and civil engineers to design such a concrete mix with the help of parameters inputed by the user which helps save cost on bulding materials alongwith increasing the strength of the same 
+</p>
+<div id= "imgbar">
+<img src = "cement1.jpg" style = "width: 300px; height: 150px ;">
+<img src = "cement2.jpg" style = "width: 300px; height: 150px ;">
+<img src = "cement5.jpg" style = "width: 300px; height: 150px ;">
+<img src = "cement3.jpg" style = "width: 300px; height: 150px ;">
+
+</div>
+<div id = "r">
+<form>
+<div>
+<label> Humidity </label>
+<input type="text" name="Humidity" value="" id = "hum"><br>
+</div>
+<div>
+<label> ph value </label>
+<input type="text" name="PH Value" value="" id = "ph" ><br>
+</div>
+<div>
+<label> Temperature </label>
+<input type="text" name="Temperature" value="" id = "temp" ><br>
+</div>
+<div>
+<label> Bearing Capacity </label>
+<input type="text" name="Bearing Capacity" value="" id = "bearing" ><br>
+</div> 
+<div>
+<label> Slump </label>
+<input type="text" name="Purpose" value="" id = "pur" ><br>
+</div>
+<div>
+<label> Choose Building Type </label>
+<select id = "build">
+<option value="1" id ="highs">Highrise</option>
+<option value="2" id = "coms">Commercial</option>
+<option value="3" id = "highs1">Highrise apartment</option>
+</select>
+</div>
+</form>
+<button onclick="myFunction()">Let's Calculate</button>
+</div>
+
+<div id = "Result">
+<div>
+<label>Titanium</label>
+<textarea id = "Titanium"> </textarea>
+</div>
+<div>
+<label>Water Content</label>
+<textarea id = "WaterC"> </textarea>
+</div>
+<div>
+<label>Cement Concrete</label>
+<textarea id = "CementCon"> </textarea>
+</div>
+<div>
+<label>Weight of Cement Aggregate</label>
+<textarea id = "weightca"> </textarea>
+</div>
+<div>
+<label>Weight of Something</label>
+<textarea id = "weightfa"> </textarea>
+</div>
+<div>
+<label>Hair</label>
+<textarea id = "hair"> </textarea>
+</div>
+</div>
+
+
+</body>
+
+</html>
